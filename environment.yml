@@ -1,0 +1,15 @@
+name: pdan8412-part2
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - numpy>=2.0,<3
+      - pandas>=2.3,<3
+      - scipy>=1.15
+      - scikit-learn>=1.6,<2
+      - matplotlib>=3.9
+      - pyspark==4.2.0
+      - pyarrow
+      - jupyterlab

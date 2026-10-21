@@ -1,0 +1,31 @@
+﻿# Original datasets
+data/
+*.csv
+
+# Python environments and cache
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Apache Spark temporary files
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Logs and temporary files
+*.log
+*.tmp
+~$*
+
+# Local report drafts
+*.docx
+
+# Operating system files
+.DS_Store
+Thumbs.db
